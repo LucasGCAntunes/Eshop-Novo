@@ -4,6 +4,9 @@ const App = {
 
         this.controllers.createLayout()
         
+        this.controllers.router()
+
+
         console.log("end")
     },
 }
