@@ -112,8 +112,8 @@ App.controllers = {
 
         this.createHeader()
 
-        //this.createMain()
-        this.createCheckout()
+        this.createMain()
+        //this.createCheckout()
         els.main.container.style.flexGrow = "1"
         els.root.appendChild(els.main.container)
 
